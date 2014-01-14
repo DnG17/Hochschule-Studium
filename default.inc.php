@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by Nodepad++.
- * User: Juxhufi
+ * User: Goxhufi
  * Date: 10.01.14
  * Time: 13:27
  */

@@ -2,27 +2,18 @@
 
 class MenuItem{
 
-   private $id;
-   private $bezeichnung;
+	private $id;
+	private $bezeichnung;
 
-    public function __construct($id, $bezeichnung){
+	public function __construct($id, $bezeichnung){
 
         $this->id = $id;
         $this->bezeichnung= $bezeichnung;
 
     }
-
-    /*public function setId($val){
-        $this->id = $val;
-    }*/
-
     public function getId(){
         return $this->id;
     }
-
-    /*public function setBezeichnung($val){
-        $this->bezeichnung = $val;
-    }*/
 
     public function getBezeichnung(){
         return $this->bezeichnung;
@@ -34,7 +25,6 @@ class MenuItem{
         return "<a href=\"website.php?id=".$this->getId()."\">".$this->getBezeichnung()."</a>";
 
     }
-
 }
 
 ?>
